@@ -18,3 +18,15 @@ function arxiv_switch(url_){
 chrome.action.onClicked.addListener( tab => {
     arxiv_switch(tab.url);
 });
+
+chrome.commands.onCommand.addListener(command => {
+    if (command === "switch") {
+        chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
+            let url = tabs[0].url;
+            arxiv_switch(url);
+            // use `url` here inside the callback because it's asynchronous!
+        });
+        
+        
+    } 
+});

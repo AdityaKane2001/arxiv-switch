@@ -11,5 +11,13 @@
   "permissions": ["activeTab"],
   "icons": {
     "16": "logo.png"
-  }
+  },
+  "commands": {
+        "switch" : {
+            "suggested_key": {
+                 "default": "Ctrl+Shift+S" 
+                },
+            "description": "Switches between arxiv PDF and ABS pages."
+        }
+    }
 }
