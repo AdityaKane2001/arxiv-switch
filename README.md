@@ -5,8 +5,9 @@ A small extension to switch between `../pdf/..` and `../abs/..` on arxiv.
 
 Future work:
 
-1. When switching, back button functionality should be preserved.
-2. In case of papers with versions, idk, fix.
-3. Prompts?
-4. Better extension logo (contributions welcome, good first issue, bragging rights and other shiny things). 
-5. Firefox and Microsoft Edge support.
+- When switching, back button functionality should be preserved.        
+  - the switched tabs show up in Chrome history, but does not work when you hit the back button
+- In case of papers with versions, idk, fix.
+- Prompts?
+- Better extension logo (contributions welcome, good first issue, bragging rights and other shiny things). 
+- Firefox and Microsoft Edge support.
