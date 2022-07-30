@@ -17,7 +17,7 @@
             "suggested_key": {
                  "default": "Ctrl+Shift+S" 
                 },
-            "description": "Switches between arxiv PDF and ABS pages."
+            "description": "Switches between arxiv abstract and PDF pages."
         }
     }
 }
