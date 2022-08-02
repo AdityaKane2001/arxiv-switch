@@ -31,6 +31,6 @@ jobs:
           # client id
           client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
           # client secret
-          client-secret: ${{ secrets.GOOGLE_SECRET }}
+          client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
           # refresh token
           refresh-token: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
