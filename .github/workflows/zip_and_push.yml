@@ -1,8 +1,8 @@
-name: Zip Files
-
+name: Zip and Push
 on:
   push:
     branches: ["master"]
+  workflow_dispatch:
 
 jobs:
   zip-files:
@@ -14,4 +14,5 @@ jobs:
           files: src/*
           recursize: true
           dest: extension.zip
+        
           
