@@ -18,7 +18,8 @@ function arxiv_switch(url_){
 
     if(url_.includes("aclanthology.org")){
         if(url_.endsWith("/")){
-            newurl = url_.replace("/", ".pdf");
+            newurl = url_.slice(0, -1);
+            newurl = newurl.concat(".pdf");
         }
         if(url_.includes("pdf")){
             newurl = url_.replace(".pdf", "/");
